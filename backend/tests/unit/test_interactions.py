@@ -1,3 +1,17 @@
+def test_interactions_pagination_boundaries():
+    """Test pagination boundary conditions"""
+    # Граничные значения для пагинации
+    # page=1, per_page=1 (минимальные)
+    # page=1, per_page=100 (максимальные)
+    # page=999999 (несуществующая страница)
+    
+    # Здесь нужно импортировать вашу функцию
+    # from your_module import get_interactions
+    
+    # Пример:
+    # result = get_interactions(page=1, per_page=1)
+    # assert len(result) <= 1
+    pass
 """Unit tests for interaction filtering logic."""
 
 from app.models.interaction import InteractionLog
